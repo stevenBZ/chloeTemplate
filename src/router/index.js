@@ -9,7 +9,7 @@ export default new Router({
     routes: [
         {
             path: '/task',
-            component: view('task')
+            component: view('task/index')
         },
         {
             path: '/404',
