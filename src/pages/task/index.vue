@@ -45,10 +45,10 @@
               fixed="right"
               label="操作"
               width="160">
-              <template slot-scope="scope">
+              <!-- <template slot-scope="scope">
                 <el-button type="text" size="small" class="mg-r10">删除</el-button>
                 <el-button type="text" size="small">删除</el-button>
-              </template>
+              </template> -->
             </el-table-column>
           </el-table>
           <el-pagination
