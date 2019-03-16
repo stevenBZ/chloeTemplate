@@ -4,6 +4,13 @@ html, body {
   margin: 0;
 }
 
+.mg-b20 {
+  margin-bottom: 20px;
+}
+.mg-r10 {
+  margin-right: 10px;
+}
+
 .content {
   height: calc(100vh - 60px);
   padding: 8px;

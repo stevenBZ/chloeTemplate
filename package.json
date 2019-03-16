@@ -1,8 +1,16 @@
 {
   "name": "template-vue-spa",
+  "keywords": ["ice-scaffold"],
   "private": true,
   "version": "1.0.0",
+  "scaffoldConfig": {
+    "type": "vue",
+    "name": "ice-design-pro",
+    "title": "ICE Design Pro",
+    "screenshot": "https://img.alicdn.com/tfs/TB1_bulmpOWBuNjy0FiXXXFxVXa-1920-1080.png"
+  },
   "scripts": {
+    "start": "npm run dev",
     "build": "rm -rf ../resources/common/static && npm run build:dll && npm run build:prod",
     "build:prod": "cross-env MODE=production webpack --config ./config/webpack.config.prod.js",
     "build:dll": "webpack --config ./config/webpack.config.dll.js",

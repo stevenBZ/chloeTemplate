@@ -1,11 +1,11 @@
 export default [
+    // {
+    //     title: '页面一',
+    //     icon: 'view',
+    //     url: '/'
+    // },
     {
-        title: '页面一',
-        icon: 'view',
-        url: '/'
-    },
-    {
-        title: '页面二',
+        title: '测试页面一',
         icon: 'edit',
         url: '/task'
     }
