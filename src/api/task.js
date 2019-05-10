@@ -1,13 +1,19 @@
 import Ajax from '@/utils/ajax';
 
 const ajax = Ajax.getInstance();
-
-export function getInfo() {
-    return ajax.get('/api/demo/info');
+////获取列表
+export function getList({ params }) {
+    return ajax.get('/api/v1/getList', { params });
 }
-
-export function getEcho(data) {
-    return ajax.post('/api/demo/echo', {
-        data
-    });
+////角色获取接口
+export function getRole({ params }) {
+    return ajax.get('/api/v1/getRole', { params });
+}
+////小组获取接口
+export function getGroup() {
+    return ajax.get('/api/v1/getGroup');
+}
+////用户新增接口
+export function postAddUser({ data }) {
+    return ajax.post('/api/v1/addUser', { data });
 }

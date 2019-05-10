@@ -1,6 +1,8 @@
 {
   "name": "template-vue-spa",
-  "keywords": ["ice-scaffold"],
+  "keywords": [
+    "ice-scaffold"
+  ],
   "private": true,
   "version": "1.0.0",
   "scaffoldConfig": {
